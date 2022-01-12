@@ -5,3 +5,12 @@
 #description{
     text-align: center;
 }
+#survey-form{
+  margin: auto;
+  width: 75%;
+  background: #8e50cf;
+  padding: 30px;
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
