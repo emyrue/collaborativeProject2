@@ -22,3 +22,6 @@
 .optional{
     font-size: 18px;
 }
+#survey-form select{
+  width: 100%;
+}
