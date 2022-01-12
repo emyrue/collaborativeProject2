@@ -25,29 +25,31 @@
     <p id="description">thorough description</p>
     <form id="survey-form" action="index.html" method="post">
       <div>
-      <p id="name-label">Name</p>
-      <input id="name" type="text" name="Name" value="Enter your name" required>
+      <label id="name-label">Name</label>
+      <input id="name" type="text" name="Name" required>
       </div>
-      <p id="email-label">Email</p>
-      <input id="email" type="email" name="Email" value="Enter your email" required>
-      <p id="number-label">Age <span class="optional">(optional)</span></p>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" name="Email" required>
+      <label id="number-label">Age <span class="optional">(optional)</span></label>
       <input id="number" type="number" name="Number" value="Enter your age" min="0" max="100">
-      <p>Which option best describes your current role?</p>
+      <label>Which option best describes your current role?</label>
       <select id="dropdown" type="text" name="dropdown" value="Select an option">
         <option value="option one">One</option>
         <option value="option two">Two</option>
         <option value="option three">Three</option>
       </select>
       <div class="">
-      <p>Are you going to recommend this product to a friend?</p>
-      <input type= "radio" name="definitely" value="Definitely">Definitely <br>
-      <input type= "radio" name="Maybe" value="Maybe">Maybe <br>
-      <input type= "radio" name="Not sure" value="Not sure">Not sure
+      <label>Are you going to recommend this product to a friend?</label>
+      <input type= "radio" name="choice" value="Definitely">Definitely <br>
+      <input type= "radio" name="choice" value="Maybe">Maybe <br>
+      <input type= "radio" name="choice" value="Not sure">Not sure
       </div>
-      <p>Select one or more of these options:</p>
+      <label>Select one or more of these options:</label>
       <input type="checkbox" name="one" value="one"> One <br>
       <input type="checkbox" name="two" value="two"> Two <br>
       <input type="checkbox" name="three" value="three"> Three <br>
+      <label>Any additional comments?</label>
+      <textarea>Enter here</textarea>
     </form>
     <script  src="js/index.js"></script>
   </body>

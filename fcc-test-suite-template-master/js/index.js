@@ -26,3 +26,6 @@ INSTRUCTIONS:
 
 // Once you have read the above messages, you can delete all comments. 
 "use strict";
+document.getElementById("number").placeholder = "Enter a number here";
+document.getElementById("name").placeholder = "Enter your name";
+document.getElementById("email").placeholder = "Enter your email";

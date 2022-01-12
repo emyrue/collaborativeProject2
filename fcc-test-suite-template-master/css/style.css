@@ -25,3 +25,12 @@
 #survey-form select{
   width: 100%;
 }
+
+#additional-comments{
+  display: block;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+}
