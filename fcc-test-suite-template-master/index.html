@@ -26,12 +26,12 @@
     <form id="survey-form" action="index.html" method="post">
       <div>
       <p id="name-label">Name</p>
-      <input id="name" type="text" name="Name" value="Enter your name">
+      <input id="name" type="text" name="Name" value="Enter your name" required>
       </div>
       <p id="email-label">Email</p>
-      <input id="email" type="email" name="Email" value="Enter your email">
+      <input id="email" type="email" name="Email" value="Enter your email" required>
       <p id="number-label">Age <span class="optional">(optional)</span></p>
-      <input id="number" type="number" name="Number" value="Enter your age" value="">
+      <input id="number" type="number" name="Number" value="Enter your age" min="0" max="100">
       <p>Which option best describes your current role?</p>
       <select id="dropdown" type="text" name="dropdown" value="Select an option">
         <option value="option one">One</option>
