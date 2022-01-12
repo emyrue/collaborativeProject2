@@ -14,3 +14,11 @@
   font-size: 22px;
   font-weight: bold;
 }
+
+#name, #email, #number{
+    width: 100%;
+}
+
+.optional{
+    font-size: 18px;
+}
